@@ -48,7 +48,7 @@ public class ListaComplemento {
         System.out.println("Exiba a maior nota: " + Collections.max(notas));
 
 
-        //CRIAÇÃO DE UMA VARIAVEL DO NADA FUNCIONA NO INTELIJ MAS NO VSCODE É ESTRANHO A FORMA DE CRIAR
+        //CRIAÇÃO DE UMA VARIAVEL FUNCIONA NO INTELIJ MAS NO VSCODE É ESTRANHO A FORMA DE CRIAR
         System.out.println("Exiba a soma dos valores: ");
             Iterator<Double> iterator = notas.iterator();
             Double soma = 0d;
